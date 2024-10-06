@@ -1,0 +1,17 @@
+{% extends template.html %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+<div class="w3-container">
+    <h2>Register</h2>
+    <form action="/register" method="post">
+        <label for="username">Username</label>
+        <input class="w3-input w3-border" type="text" id="username" name="username" required>
+        <label for="password">Password</label>
+        <input class="w3-input w3-border" type="password" id="password" name="password" required>
+        <button class="w3-button w3-blue w3-margin-top" type="submit">Register</button>
+    </form>
+</div>
+{% endblock %}
+

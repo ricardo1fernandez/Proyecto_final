@@ -1,0 +1,16 @@
+{% extends "template.html" %}
+
+{% block title %}Página Principal{% endblock %}
+
+{% block content %}
+<div class="w3-container">
+    <h2>Bienvenido a la Página Principal</h2>
+    {% if session.user_id %}
+        <a href="{{ url_for('logout') }}" class="w3-button w3-red">Cerrar Sesión</a>
+    {% else %}
+        <a href="{{ url_for('login') }}" class="w3-button w3-green">Iniciar Sesión</a>
+        <a href="{{ url_for('register') }}" class="w3-button w3-blue">Registrarse</a>
+    {% endif %}
+</div>
+{% endblock %}
+
