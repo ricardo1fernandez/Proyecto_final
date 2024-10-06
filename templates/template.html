@@ -16,6 +16,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
 <body>
 {% block content %}
 <!-- Side Navigation -->
+<nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-text ms-auto">
+                Bienvenido, {{ username }} <!-- Muestra el nombre de usuario -->
+            </span>
+        	<a href="{{ url_for('logout') }}" class="btn btn-danger ms-2">Logout</a>
+	</div>
+    </nav>
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large"><img src="../static/images/w3schools.png" alt="W3Schools Logo" style="width:60%;"></a>
   <button onclick="w3_close()" title="Close Sidemenu" class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i></button>

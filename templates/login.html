@@ -5,12 +5,12 @@
 {% block content %}
 <div class="w3-container">
     <h2>Login</h2>
-    <form action="/login" method="post">
+    <form action="{{ url_for('login') }}" method="POST">
         <label for="username">Username</label>
-        <input class="w3-input w3-border" type="text" id="username" name="username" required>
+        <input class="w3-input w3-border" type="text" name="username" required>
         <label for="password">Password</label>
-        <input class="w3-input w3-border" type="password" id="password" name="password" required>
-        <button class="w3-button w3-blue w3-margin-top" type="submit">Login</button>
+        <input class="w3-input w3-border" type="password" name="password" required>
+        <button class="w3-button w3-blue" type="submit">Login</button>
     </form>
 </div>
 {% endblock %}
