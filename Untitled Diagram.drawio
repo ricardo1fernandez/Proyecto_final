@@ -1,9 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Page-1" id="L_Ir2xf3sJVGayo4wCdh">
-    <mxGraphModel>
+    <mxGraphModel dx="1036" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arF6LvTNrWBc3EfPHNwc-1" target="arF6LvTNrWBc3EfPHNwc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-1" value="Diagrama del funcionamiento del código&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arF6LvTNrWBc3EfPHNwc-2" target="arF6LvTNrWBc3EfPHNwc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-2" value="Se importan las librerias necesarias como: TenorFlow, NumPy, Pandas,&amp;nbsp;&lt;div&gt;Math&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arF6LvTNrWBc3EfPHNwc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-4" value="Se importa el tipo de red neuronal LSTM y sus capas desde la libreria TensorFlow" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arF6LvTNrWBc3EfPHNwc-7" target="arF6LvTNrWBc3EfPHNwc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Con la libreria NumPy&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;se crean los datos de las variables a analizar del separador trifásico estas son:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;presión, temperatura, nivel del agua, nivel de crudo, densidad. Eficiencia del agua, eficiencia del gas, eficiencia del crudo&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="arF6LvTNrWBc3EfPHNwc-8" target="arF6LvTNrWBc3EfPHNwc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-8" value="Con estos datos historicos se entrena la red neuronal LSTM.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="arF6LvTNrWBc3EfPHNwc-10" value="Se grafican los datos para ser analizados&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
